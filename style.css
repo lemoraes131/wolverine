@@ -1,0 +1,22 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fffefc;
+  color: #333;
+}
+
+h2 {
+  color: #FF862A;
+  font-family: 'Lemon', serif;
+}
+
+img {
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+button {
+  border-radius: 25px;
+}
