@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wolverine 🐾</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="p-4 bg-light text-center">
+    <h1 class="display-4">🐶 Wolverine</h1>
+    <p class="lead">O doguinho mais estiloso!</p>
+    <nav>
+      <a href="#inicio" class="btn btn-outline-primary m-2">Início</a>
+      <a href="#galeria" class="btn btn-outline-success m-2">Galeria</a>
+      <a href="#contato" class="btn btn-outline-warning m-2">Contato</a>
+    </nav>
+  </header>
+
+  <main class="container mt-5">
+
+    <section id="inicio" class="text-center">
+      <h2>Bem-vindo ao mundo do Wolverine!</h2>
+      <p>Um cãozinho carismático, fotogênico e cheio de estilo. Role para ver suas melhores fotos.</p>
+      <img src="img/1.png" class="img-fluid rounded-4 shadow-lg my-3" alt="Wolverine feliz">
+    </section>
+
+    <section id="galeria" class="my-5">
+      <h2 class="text-center mb-4">Galeria</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <img src="img/2.png" class="img-fluid rounded-4 shadow" alt="Wolverine com gravata">
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <img src="img/3.png" class="img-fluid rounded-4 shadow" alt="Wolverine natalino">
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <img src="img/4.png" class="img-fluid rounded-4 shadow" alt="Wolverine fofo close">
+        </div>
+        <div class="col-md-12 col-lg-6 mx-auto">
+          <img src="img/5.png" class="img-fluid rounded-4 shadow" alt="Wolverine estiloso">
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="my-5 bg-light p-4 rounded-4 shadow-sm">
+      <h2 class="text-center mb-4">Entre em Contato</h2>
+      <form>
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="nome" placeholder="Seu nome" />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="email" placeholder="seu@email.com" />
+        </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label">Mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem..."></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="text-center p-4 mt-5 bg-dark text-white">
+    <p>🐾 Wolverine, o dog influencer 🐶</p>
+    <p>Siga nas redes sociais</p>
+  </footer>
+
+</body>
+</html>
